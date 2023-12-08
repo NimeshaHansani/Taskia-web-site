@@ -1,0 +1,291 @@
+.main-container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* nav bar */
+  .container-fluid{
+    background-color: white;
+}
+
+  .heading {
+    color: #525ffb;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+  #try {
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 100px;
+    border: 2px solid #525ffb;
+    color: #525ffb;
+  }
+
+  #try:hover{
+    background-color: #525ffb;
+    color: white;
+  }
+
+  .main-banner  {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 6fr 1fr 1fr;
+    column-gap: 5px;
+  }
+
+  .main-banner h1 {
+    font-size: 400%;
+    font-weight: 800;
+  }
+
+  .main-banner h4 {
+    font-size: 135%;
+    color: rgb(197, 190, 190);
+  }
+
+  .main-banner img {
+    display: block;
+     margin-left: auto;
+  }
+
+
+.field {
+    border: 1px solid rgb(221, 218, 218);
+    border-radius: 28px;
+    width: 50%;
+    height: 60px;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: rgb(221, 218, 218);
+    opacity: 1;
+  }
+
+.inline-btn {
+    margin-left: 5%;
+    /* width: 180px; */
+    width: 28%;
+    height: 60px;
+    border-radius: 28px;
+    background-color: #525ffb;
+    color: white;
+    border: none;
+    /* font-size: 20px; */
+    font-size: 130%;
+    font-weight: bold;
+}
+
+/* Feature Section */
+
+.feature-title {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 330px;
+  height: 430px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.card-blue {
+  background-color: #525ffb;
+  width: 330px;
+  height: 430px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.card-ash {
+  background-color: #e9f0ff;
+  width: 330px;
+  height: 430px;
+  border-radius: 10px;
+  margin-right: 70px;
+  margin-top: 70px;
+}
+
+.card-yellow {
+  background-color: #ffe7aa;
+  width: 330px;
+  height: 430px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.cardimg {
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+.cardtitle {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 90%;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#title2 {
+  color: black;
+}
+
+#title3 {
+  color: black;
+}
+
+.carddescription {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+#dis1 {
+  color: white;
+}
+
+/* Problem section */
+
+.main-banner2  {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 7fr 6fr 4fr;
+  column-gap: 5px;
+  margin-right: 80px;
+  margin-left: 30px;
+}
+
+.main-banner2 h1 {
+  font-size: 300%;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-bottom: 8%;
+}
+
+.main-banner2 h4 {
+  font-size: 115%;
+  color: rgb(197, 190, 190);
+  margin-left: 10%;
+}
+
+.main-banner2 img {
+  display: block;
+   margin-right: auto;
+}
+
+#btnLernmore {
+  margin-left: 10%;
+  width: 40%;
+}
+
+/* Team Section */
+
+.main-banner3  {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 7fr 1fr 1fr;
+  column-gap: 3%;
+  margin-left: 16%;
+}
+
+.main-banner3 h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.main-banner3 h4 {
+  font-size: 115%;
+  color: rgb(197, 190, 190);
+}
+
+.memberimg {
+  display: block;
+  margin-left: 5%;
+}
+
+.inline-form2 {
+  display: inline-block;
+}
+
+/* Service Section */
+
+.Service-Section h1 {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.align-text-img {
+  display: flex;
+  align-items: center;
+}
+
+.member1 {
+  margin-left: 7%;
+  margin-right: 10%;
+  margin-bottom: 11%;
+}
+
+.Service-Section h2 {
+  font-size: 780%;
+  font-weight:800;
+  
+}
+
+#amount {
+  color: #525ffb;
+}
+
+.member2 {
+  margin-left: 6%;
+  margin-top: 12%;
+  width: 350px;
+  height: 350px;
+}
+
+/* Contact Section */
+
+#contacth1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+#contactl1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+#contactl2{
+  text-align: center;
+  font-weight: 400;
+}
+
+.contact-form {
+  margin-left: 33%;
+}
+
+.field2 {
+  border: 1px solid rgb(221, 218, 218);
+  border-radius: 28px;
+  width: 30%;
+  height: 60px;
+  font-size: 134%;
+}
+
+#btnLast {
+  width: 17%;
+}
